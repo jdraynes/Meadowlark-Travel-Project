@@ -15,7 +15,7 @@ var app = express();
 var credentials = require('./credentials.js');
 
 // twitter library
-var twitter = require('./lib/twitter')({
+var twitter = require('./twitter')({
 	consumerKey: credentials.twitter.consumerKey,
 	consumerSecret: credentials.twitter.consumerSecret,
 });
